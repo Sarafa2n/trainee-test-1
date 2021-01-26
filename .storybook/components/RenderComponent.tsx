@@ -12,6 +12,7 @@ export const locatorMatches = [
 	'picture',
 	'title',
 	'warning',
+	'smoke',
 
 	'teaser',
 ];

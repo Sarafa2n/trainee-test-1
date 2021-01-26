@@ -24,12 +24,14 @@ export default class extends React.Component<any> {
 		const {
 			items,
 			transform,
+			locator
 		} = this.props;
 
 		return (
 			<Block className={transform('wrapper wrapper_frame')}>
 				{items.map((item, index) => (
 					<Teaser
+						locator={locator}
 						item={item}
 						index={index}
 						transform={transform}

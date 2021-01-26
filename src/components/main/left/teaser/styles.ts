@@ -47,6 +47,7 @@ export default locator => {
 		'.mimic_left .teaser .contacts': {
 			'clear': 'both',
 			'font-size': locator.calcString(11, 'px'),
+			'display': 'flex',
 		},
 
 		'.mimic_left .teaser:hover .picture img': {
@@ -59,6 +60,14 @@ export default locator => {
 
 		'.mimic_left .teaser:hover .contacts__item_link': {
 			'text-decoration': 'underline',
+		},
+
+		'.mimic_left .teaser .smoke': {
+			'unicode-bidi': 'isolate-override',
+			'direction': 'rtl',
+			'white-space': 'pre',
+			'width': 'fit-content',
+			'display': 'inline',
 		},
 	};
 };
